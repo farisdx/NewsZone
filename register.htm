@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Login Form with Avatar Image</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="login.css">
+</style>
+</head>
+<body>
+  <div class="login-form">
+    <form action="/examples/actions/confirmation.php" method="post">
+      <div class="avatar">
+        <img src="./image/avatar.png" alt="Avatar">
+      </div>
+      <h2 class="text-center">Create New Account</h2>
+      <div class="form-group">
+        <input type="text" class="form-control" name="Fname" placeholder="Fisrt Name" required="required"> <br>
+        <input type="text" class="form-control" name="Lname" placeholder="Last Name" required="required"> <br>
+        <input type="text" class="form-control" name="Email" placeholder="Email" required="required"> <br>
+        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+      </div>
+      <div class="clearfix">
+        <label class="pull-left checkbox-inline">Your data is yours.
+          We will only use your data to provide you with the products and services you have chosen.
+          Want to know more? Further information can be found in our Privacy Policy.</label>
+        <!-- <a href="#" class="pull-right">Forgot Password?</a> -->
+        <br>
+        <label  class="pull-left checkbox-inline"><input type="checkbox"> <strong>I agree</strong> </label>
+      </div><br>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Create My Account</button>
+      </div>
+    </form>
+    <p class="text-center small">Have an account? <a href="#">Login here!</a></p>
+  </div>
+</body>
+</html>
