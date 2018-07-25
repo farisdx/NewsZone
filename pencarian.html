@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Halaman Utama</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="master.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img src="image/logo.png" style="width:30px;height:30px;margin-top:10px;"/>
+      </div>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a class="white" href="index.htm"> <b>Home</b></a></li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Olahraga</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Sepak Bola</a>
+            <a class="dropdown-item" href="#">Bulu Tangkis</a>
+            <a class="dropdown-item" href="#">Voli</a>
+            <a class="dropdown-item" href="#">Basket</a>
+            <a class="dropdown-item" href="#">Tinju</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Ekonomi</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Infrastruktur</a>
+            <a class="dropdown-item" href="#">Konsultasi</a>
+            <a class="dropdown-item" href="#">Bursa</a>
+            <a class="dropdown-item" href="#">Lowongan Pekerjaan</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Teknologi</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Gadget</a>
+            <a class="dropdown-item" href="#">Tips & trick</a>
+            <a class="dropdown-item" href="#">Grafis</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Politik</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Kasus Politik</a>
+            <a class="dropdown-item" href="#">Partai</a>
+            <a class="dropdown-item" href="#">Prestasi</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Entertainment</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Dalam Negeri</a>
+            <a class="dropdown-item" href="#">Luar Negeri</a>
+            <a class="dropdown-item" href="#">K-POP</a>
+            <a class="dropdown-item" href="#">Inspirasi</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Kuliner</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Resep</a>
+            <a class="dropdown-item" href="#">Rekomendasi Tempat</a>
+            <a class="dropdown-item" href="#">Jelajah Kuliner</a>
+            <a class="dropdown-item" href="#">Foto</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Wisata</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Pegunungan</a>
+            <a class="dropdown-item" href="#">Laut</a>
+            <a class="dropdown-item" href="#">Luar Negeri</a>
+            <a class="dropdown-item" href="#">Rekomendasi Wisata</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#">Link</a></li> -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span></a>
+          <ul class="dropdown-menu">
+            <!-- <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li> -->
+            <li><a href="#login_form" id="login_pop"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+            <li><a href="#join_form" id="join_pop"><span class="glyphicon glyphicon-user"></span> Register </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout </a></li>
+            <!-- <li><a href="#">Separated link</a></li> -->
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon glyphicon-cog white"></span></a></li>
+
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register </a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+      <li><a href="#"><span class="glyphicon glyphicon glyphicon-cog"></span> Setting</a></li>
+    </ul> -->
+    <form class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">
+        <span class="glyphicon glyphicon-search"></span>
+      </button>
+    </form>
+  </nav>
+  <div class="container-fluid">
+    <div class="col-lg-1-12">
+      <div class="well well-lg">
+        <div class="row">
+          <div class="col-sm-1">
+            <img src="./image/logo2.png" alt="" height="70px">
+          </div>
+          <div class="col-sm-11">
+            <h1><b>Hasil Pencarian : "jakarta"</b></h1>
+            <hr>
+          </div>
+          <div class="col-sm-12">
+            <div class="col-sm-3">
+              <img src="./image/foto.jpg" alt="" height="170px" class="img-rounded">
+              <br><br>
+            </div>
+            <div class="col-sm-9">
+              <h3>Penampakan Kali Besar Jakarta yang Kian Cantik</h3>
+              <p><b>Jakarta</b> - Usai dibuka untuk umum pekan lalu, Kali Besar di Kota Tua
+                Jakarta bisa jadi destinasi wisata akhir pekan ini. Ayo kita lihat
+                penampakannya yang makin cantik!</p>
+                <button class="btn btn-success" type="button" name="button">Read</button>
+                <br><br>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="col-sm-3">
+                <img src="./image/foto.jpg" alt="" height="170px" class="img-rounded">
+                <br><br>
+              </div>
+              <div class="col-sm-9">
+                <h3>Penampakan Kali Besar Jakarta yang Kian Cantik</h3>
+                <p><b>Jakarta</b> - Usai dibuka untuk umum pekan lalu, Kali Besar di Kota Tua
+                  Jakarta bisa jadi destinasi wisata akhir pekan ini. Ayo kita lihat
+                  penampakannya yang makin cantik!</p>
+                  <button class="btn btn-success" type="button" name="button">Read</button>
+                  <br><br>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="col-sm-3">
+                  <img src="./image/foto.jpg" alt="" height="170px" class="img-rounded">
+                  <br><br>
+                </div>
+                <div class="col-sm-9">
+                  <h3>Penampakan Kali Besar Jakarta yang Kian Cantik</h3>
+                  <p><b>Jakarta</b> - Usai dibuka untuk umum pekan lalu, Kali Besar di Kota Tua
+                    Jakarta bisa jadi destinasi wisata akhir pekan ini. Ayo kita lihat
+                    penampakannya yang makin cantik!</p>
+                    <button class="btn btn-success" type="button" name="button">Read</button>
+                    <br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+      </html>

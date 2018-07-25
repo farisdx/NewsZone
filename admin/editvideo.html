@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Tambah Berita</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../master.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img src="image/logo.png" style="width:30px;height:30px;margin-top:10px;"/>
+      </div>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a class="white" href="index.html"> <b>Home</b></a></li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Olahraga</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Sepak Bola</a>
+            <a class="dropdown-item" href="#">Bulu Tangkis</a>
+            <a class="dropdown-item" href="#">Voli</a>
+            <a class="dropdown-item" href="#">Basket</a>
+            <a class="dropdown-item" href="#">Tinju</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Ekonomi</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Infrastruktur</a>
+            <a class="dropdown-item" href="#">Konsultasi</a>
+            <a class="dropdown-item" href="#">Bursa</a>
+            <a class="dropdown-item" href="#">Lowongan Pekerjaan</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Teknologi</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Gadget</a>
+            <a class="dropdown-item" href="#">Tips & trick</a>
+            <a class="dropdown-item" href="#">Grafis</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Politik</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Kasus Politik</a>
+            <a class="dropdown-item" href="#">Partai</a>
+            <a class="dropdown-item" href="#">Prestasi</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Entertainment</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Dalam Negeri</a>
+            <a class="dropdown-item" href="#">Luar Negeri</a>
+            <a class="dropdown-item" href="#">K-POP</a>
+            <a class="dropdown-item" href="#">Inspirasi</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Kuliner</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Resep</a>
+            <a class="dropdown-item" href="#">Rekomendasi Tempat</a>
+            <a class="dropdown-item" href="#">Jelajah Kuliner</a>
+            <a class="dropdown-item" href="#">Foto</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="white" href="#"><b>Wisata</b></a>
+          <div class="dropdown-content" >
+            <a class="dropdown-item" href="#">Pegunungan</a>
+            <a class="dropdown-item" href="#">Laut</a>
+            <a class="dropdown-item" href="#">Luar Negeri</a>
+            <a class="dropdown-item" href="#">Rekomendasi Wisata</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#join_form" id="join_pop"><span class="glyphicon glyphicon-user"></span> Register </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="../index.htm"><span class="glyphicon glyphicon-log-out"></span> Logout </a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon glyphicon-cog white"></span></a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+        <button class="btn btn-info" type="button" name="button">Tambah Berita</button>
+      </form>
+    </nav>
+    <div class="container container-fluid">
+      <div class="col-xl-1-12">
+        <!-- <div class="row"> -->
+        <div class="well well-lg">
+          <div class="row">
+            <!-- <div class="text-center col-lg-11">
+            <img height="400px" src="image/foto1.jpg" class="img-rounded">
+          </div> -->
+        <h2 class="text-center"><b>Tambah Video</b> </h2>
+        <div class="form-group">
+          <label class="control-label col-sm-2">Judul :</label>
+          <div class="col-sm-10">
+            <textarea name="name" class="form-control" rows="2"></textarea>
+              <br>
+            <label class="control-label col-sm-2">Oleh : </label>
+            <input type="text" class="form-control" name="" value="" placeholder="ex : Aditya Eka"><br>
+            <label class="control-label col-sm-2">Tempat : </label>
+            <input type="text" class="form-control" name="" value="" placeholder="ex : Malang, Jawa Timur"><br>
+            <label class="control-label col-sm-2">Tanggal : </label>
+            <input type="text" class="form-control" name="" value="" placeholder="ex : Jul 11, 2018"><br><br>
+          </div>
+        </div><br><br><br><br>
+        <!-- <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Isi Berita</label>
+          <div class="col-sm-10">
+            <textarea name="name" class="form-control" rows="12" cols="80"></textarea><br><br>
+          </div>
+        </div> -->
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Videos : </label>
+          <div class="col-sm-10">
+            <input type="file" name="" value=""><br><br>
+          </div>
+        </div>
+        <div class="text-center"><br>
+          <p><br></p>
+        <button class="btn btn-info" type="button" name="button">Tambah Video</button>
+        </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+  </div>
+  <footer class="container-fluid text-center bg-primary">
+    <h4 class="white"><img src="image/logo.png" style="width:25px;height:25px;"/>&nbsp<b>NewZone</b></h4>
+  </footer>
+</body>
+</html>
